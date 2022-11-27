@@ -15,7 +15,8 @@ button4 = KeyboardButton("#קניות")
 button5 = KeyboardButton("#חשבונות")
 button6 = KeyboardButton("#חשמל")
 button7 = KeyboardButton("#אוכל_בחוץ")
-keyboard2 = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).add(button3).add(button4).add(button5).add(button6).add(button7)
+backButton = KeyboardButton("Back")
+keyboard2 = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).add(button3).add(button4).add(button5).add(button6).add(button7).add(backButton)
 
 
 
